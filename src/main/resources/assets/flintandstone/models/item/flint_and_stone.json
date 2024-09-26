@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "flintandstone:item/flint_and_stone"
+    }
+}
