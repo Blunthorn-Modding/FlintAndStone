@@ -3,12 +3,13 @@
 	"id": "flintandstone",
 	"version": "${version}",
 	"name": "FlintAndStone",
-	"description": "Adds a primitive, single use flint and stone extending the items from earlystages",
+	"description": "Adds a primitive, single use Flint and Stone",
 	"authors": [
-		"Blunthorn"
+		"Blunthorn",
+		"JackFlint3"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
+		"homepage": "https://modrinth.com/mod/flintandstone",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
@@ -17,21 +18,8 @@
 	"entrypoints": {
 		"main": [
 			"blunthorn.flintandstone.FlintAndStone"
-		],
-		"client": [
-			"blunthorn.flintandstone.FlintAndStoneClient"
-		],
-		"fabric-datagen": [
-			"blunthorn.flintandstone.FlintAndStoneDataGenerator"
 		]
 	},
-	"mixins": [
-		"flintandstone.mixins.json",
-		{
-			"config": "flintandstone.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.16.5",
 		"minecraft": "~1.20.1",
